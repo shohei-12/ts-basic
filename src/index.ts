@@ -5,5 +5,8 @@
 // world.sayHello(root);
 
 import { unknownSample } from './basic';
+import { isUserSignedIn } from './function';
 
 unknownSample();
+isUserSignedIn();
+isUserSignedIn('SHOHEI');
