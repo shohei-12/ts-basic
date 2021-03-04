@@ -5,8 +5,9 @@
 // world.sayHello(root);
 
 import { unknownSample } from './basic';
-import { isUserSignedIn } from './function';
+import { isUserSignedIn, sumProductsPrice } from './function';
 
 unknownSample();
 isUserSignedIn();
 isUserSignedIn('SHOHEI');
+console.log(sumProductsPrice(100, 200, 300, 400, 500));

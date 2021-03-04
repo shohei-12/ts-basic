@@ -1,1 +1,1 @@
-export { isUserSignedIn } from './parameters';
+export { isUserSignedIn, sumProductsPrice } from './parameters';
