@@ -29,4 +29,31 @@ export const object = (): void => {
   capitals.Canada = 'Ottawa';
 
   console.log(capitals);
+
+  // intersection
+  type Knight = {
+    hp: number;
+    mp: number;
+    weapon: string;
+    swordSkill: string;
+  };
+
+  type Wizard = {
+    hp: number;
+    mp: number;
+    weapon: string;
+    magicSkill: string;
+  };
+
+  type Paladin = Knight & Wizard;
+
+  const tom: Paladin = {
+    hp: 300,
+    mp: 200,
+    weapon: '魔法の剣',
+    swordSkill: '三連斬り',
+    magicSkill: 'メラ',
+  };
+
+  console.log(tom);
 };
