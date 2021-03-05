@@ -6,8 +6,10 @@
 
 import { unknownSample } from './basic';
 import { isUserSignedIn, sumProductsPrice } from './function';
+import { object } from './object';
 
 unknownSample();
 isUserSignedIn();
 isUserSignedIn('SHOHEI');
 console.log(sumProductsPrice(100, 200, 300, 400, 500));
+object();
