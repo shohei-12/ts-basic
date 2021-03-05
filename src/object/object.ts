@@ -16,4 +16,17 @@ export const object = (): void => {
   person.age = 22;
 
   console.log(person);
+
+  // index signature
+  const capitals: {
+    [countryName: string]: string;
+  } = {
+    Japan: 'Tokyo',
+    Korea: 'Seoul',
+  };
+
+  capitals.China = 'Beijing';
+  capitals.Canada = 'Ottawa';
+
+  console.log(capitals);
 };
