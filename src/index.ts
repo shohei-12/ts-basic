@@ -8,7 +8,7 @@ import { unknownSample } from './basic';
 import { isUserSignedIn, sumProductsPrice } from './function';
 import { object } from './object';
 import { immutableSample, tupleSample } from './array';
-import { genericBasicSample } from './generic';
+import { genericAdvancedSample, genericBasicSample } from './generic';
 
 // unknownSample();
 // isUserSignedIn();
@@ -18,3 +18,4 @@ import { genericBasicSample } from './generic';
 // tupleSample();
 // immutableSample();
 genericBasicSample();
+genericAdvancedSample();
