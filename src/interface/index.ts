@@ -1,0 +1,1 @@
+export { interfaceSample } from './interface';

@@ -9,6 +9,7 @@ import { isUserSignedIn, sumProductsPrice } from './function';
 import { object } from './object';
 import { immutableSample, tupleSample } from './array';
 import { genericAdvancedSample, genericBasicSample } from './generic';
+import { interfaceSample } from './interface';
 
 // unknownSample();
 // isUserSignedIn();
@@ -17,5 +18,6 @@ import { genericAdvancedSample, genericBasicSample } from './generic';
 // object();
 // tupleSample();
 // immutableSample();
-genericBasicSample();
-genericAdvancedSample();
+// genericBasicSample();
+// genericAdvancedSample();
+interfaceSample();

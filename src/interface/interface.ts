@@ -61,3 +61,23 @@ const cotrip: Handbook = {
   title: 'ことりっぷ',
   theme: '旅行',
 };
+
+// Define type for class
+export const interfaceSample = (): void => {
+  class Comic implements Book {
+    page: number;
+    title: string;
+
+    constructor(page: number, title: string, private publishYear: number) {
+      this.page = page;
+      this.title = title;
+    }
+
+    getPublishYear() {
+      return `${this.title}が発売されたのは${this.publishYear}年です。`;
+    }
+  }
+
+  const popularComic = new Comic(200, '鬼滅の刃', 2016);
+  console.log(popularComic.getPublishYear());
+};
