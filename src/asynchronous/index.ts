@@ -1,0 +1,1 @@
+export { callbackSample } from './callback';
