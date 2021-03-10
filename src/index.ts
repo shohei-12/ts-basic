@@ -10,7 +10,7 @@ import { object } from './object';
 import { immutableSample, tupleSample } from './array';
 import { genericAdvancedSample, genericBasicSample } from './generic';
 import { interfaceSample } from './interface';
-import { callbackSample } from './asynchronous';
+import { callbackSample, promiseSample } from './asynchronous';
 
 // unknownSample();
 // isUserSignedIn();
@@ -21,5 +21,6 @@ import { callbackSample } from './asynchronous';
 // immutableSample();
 // genericBasicSample();
 // genericAdvancedSample();
-interfaceSample();
-callbackSample();
+// interfaceSample();
+// callbackSample();
+promiseSample();
